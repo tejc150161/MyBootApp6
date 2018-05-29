@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp9;
+package jp.te4a.spring.boot.myapp11;
 
 import org.springframework.stereotype.Repository;
 import java.util.List;

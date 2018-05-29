@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp9;
+package jp.te4a.spring.boot.myapp11;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,8 +30,10 @@ public class BookService {
 	    return bookForm;
 	  }
 	
-	public void delete(BookBean b) {  
-		delete(b);
+	public void delete(Integer id) {  
+    	BookBean b = new BookBean();
+    	b.setId(id);
+    	bookRepository.delete(b);
 	}
 	
 	
