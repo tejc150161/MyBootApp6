@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp11;
+package jp.te4a.spring.boot.myapp12;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -16,6 +16,7 @@ public class BookForm {
 	@EcheckValid(param = "abc")
 	private String title;
 	@Size(min=3, max=20)
+	@Writter(ok ="宮田愛萌")
 	private String writter;
 	private String publisher;
 	@Min(0)
