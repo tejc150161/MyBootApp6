@@ -16,7 +16,7 @@ public class BookForm {
 	@EcheckValid(param = "abc")
 	private String title;
 	@Size(min=3, max=20)
-	@Writter(ok ="宮田愛萌")
+	@Writter(ok ="東北タロウ")
 	private String writter;
 	private String publisher;
 	@Min(0)
